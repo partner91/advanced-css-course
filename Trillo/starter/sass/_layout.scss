@@ -35,7 +35,24 @@
   background-color: #fff;
   flex: 1;
 
+}
 
+.detail{
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(line);
+}
 
-  height: 80rem;
+.description{
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+  font-size: 1.4rem;
+}
+
+.review{
+  flex: 1;
 }
